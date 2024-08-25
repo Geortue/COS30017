@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="climb">Escalar</string>
+    <string name="fall">Cair</string>
+    <string name="reset">Reiniciar</string>
+    <string name="score">Pontuação:</string>
+</resources>
