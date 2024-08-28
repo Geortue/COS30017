@@ -7,15 +7,27 @@
 
     <TextView
         android:id="@+id/scoreTextView"
-        android:layout_width="173dp"
-        android:layout_height="93dp"
-        android:layout_marginStart="120sp"
-        android:layout_marginTop="100sp"
+        android:layout_width="234dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="92dp"
         android:text="@string/score"
         android:textAlignment="center"
-        android:textSize="24sp"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/scoreDisplay"
+        android:layout_width="181dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="32dp"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scoreTextView" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -29,29 +41,28 @@
 
         <Button
             android:id="@+id/climbButton"
-            android:layout_width="88dp"
+            android:layout_width="100dp"
             android:layout_height="48dp"
-            android:layout_marginEnd="10dp"
-            android:background="@color/teal_700"
+            android:background="@drawable/round_corner"
             android:text="@string/climb"
-            android:textColor="@color/teal_200" />
+            android:textColor="@color/black" />
 
         <Button
             android:id="@+id/fallButton"
-            android:layout_width="88dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="100dp"
             android:layout_height="48dp"
-            android:layout_marginEnd="10dp"
-            android:background="@color/purple_200"
+            android:background="@drawable/round_corner"
             android:text="@string/fall"
-            android:textColor="@color/purple_700" />
+            android:textColor="@color/black" />
 
         <Button
             android:id="@+id/resetButton"
-            android:layout_marginEnd="10dp"
-            android:layout_width="88dp"
+            android:layout_width="100dp"
             android:layout_height="48dp"
             android:textColor="@color/black"
-            android:background="@color/green"
+            android:background="@drawable/round_corner"
             android:text="@string/reset" />
     </LinearLayout>
 

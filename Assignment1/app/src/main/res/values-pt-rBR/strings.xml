@@ -4,4 +4,5 @@
     <string name="fall">Cair</string>
     <string name="reset">Reiniciar</string>
     <string name="score">Pontuação:</string>
+    <string name="score_display">0</string>
 </resources>
